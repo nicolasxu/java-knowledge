@@ -16,3 +16,11 @@ double price = in.nextDouble(); // to get an double number
 
 System.out.print("Please enter your name: ");
 String name = in.next(); // to get a string
+
+
+if (in.hasNextInt()) {
+	int floor = in.nextInt();
+	Process the input value
+} else {
+	System.out.println("Error: Not an integer.");
+}
