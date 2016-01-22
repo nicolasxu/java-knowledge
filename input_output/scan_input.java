@@ -20,7 +20,7 @@ String name = in.next(); // to get a string
 
 if (in.hasNextInt()) {
 	int floor = in.nextInt();
-	Process the input value
+	//Process the input value
 } else {
 	System.out.println("Error: Not an integer.");
 }

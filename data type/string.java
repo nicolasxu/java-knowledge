@@ -2,6 +2,8 @@ String str = "Harry";
 int n = str.length();
 String mystery = str.substring(0, 1) + str.substring(n - 1, n);
 
+str.substring(str.length() - 1); // get last letter
+str.substring(str.length() - 4); // get last 4 characters
 
 
 "Harry".charAt(0);
